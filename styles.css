@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {   
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+.menu-bar{
+    font-size: 15px;
+    display: flex;
+    height: 6vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 2em;
+    border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+.nav-bar > ul{
+    display: flex;
+    column-gap: 1.5em;
+    align-items: baseline;
+    list-style: none;
+}
+
+.tools:hover{
+    cursor: pointer;
+    color: hsl(216, 100%, 50%);
+}
+
+.go-pro{
+    color:magenta;
+}
+
+.sign-in{
+    color: gray;
+}
+
+.sign-in:hover{
+    cursor: pointer;
+    color: hsl(216, 100%, 50%);
+}
+
+.sign-up{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.blue-button{
+    color: white;
+    background-color: hsl(216, 100%, 50%);
+}
+
+.blue-button:hover{
+    cursor: pointer;
+    background-color: hsl(216, 100%, 45%);
+}
+
+.container{
+    padding: 4em 0 0 8em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.data > *{
+    margin-bottom: 25px;
+    padding: 0 auto;
+    text-align: center;
+}
+
+.title{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.image-container{
+    width: 60%;
+}
+
+.image-container > img{
+    width: 50em;
+}
+
+.button-model{
+    width:60%;
+    margin:0 auto;
+    font-size: 0.9em;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.grey-button{
+    border: 1px solid hsl(0, 0%, 80%);
+}
+
+.grey-button:hover{
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 70%);
+}
